@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+#header{
+    background: #111111;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: -1rem;
+}
+
+#banner{
+    color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    background-image: url(../../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+.inner#banner{
+    position: relative;
+    top: 10rem;
+}
+
+header.special{
+    text-align: center;
+
+}
